@@ -1,0 +1,115 @@
+body {
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.logo_img {
+    width: 100px;
+    margin-right: 15px;
+}
+
+.logo-text {
+    height: 20px;
+}
+
+.menu-link {
+    /* Menu name */
+    /* Body Extra */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+    display: flex;
+    align-items: center;
+
+    /* SuCheff theme/ref/neutral/neutral30 */
+    color: #444748;
+
+
+    /* Inside auto layout */
+
+}
+
+.menu-icon{
+    height: 30px;
+}
+
+.main-banner{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7.5%;
+}
+
+.card{
+    display: flex ;
+    width: 250px;
+    height: 320px;
+
+    position: relative;
+    overflow: visible;
+    margin-top: 50px;
+
+}
+   
+   .card-img {
+    display: flex;
+    justify-content: center;
+    height: 45%;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+   
+   .card-info {
+    padding-top: 10%;
+    padding-left: 10px;
+   }
+   
+   svg {
+    width: 20px;
+    height: 20px;
+   }
+   
+   .card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+    background-color: white;
+   }
+   
+   /*Text*/
+   .text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+   }
+   
+   .text-body {
+    font-size: .9em;
+    padding-bottom: 10px;
+   }
+   
+   /*Button*/
+   .card-button {
+    background-color: #ff8d40;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    padding: .3em;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+   }
+   
+   /*Hover*/
+   .card-img:hover {
+    transform: translateY(-15%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+   }
+   
+
+   
