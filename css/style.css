@@ -1,5 +1,6 @@
 body {
     font-family: "Libre Franklin", sans-serif;
+    background-color: #F2F2F2;
 }
 
 .logo_img {
@@ -30,11 +31,11 @@ body {
 
 }
 
-.menu-icon{
+.menu-icon {
     height: 30px;
 }
 
-.main-banner{
+.main-banner {
     display: flex;
     margin-top: 80px;
     justify-content: center;
@@ -42,74 +43,117 @@ body {
     gap: 7.5%;
 }
 
-.card{
-    display: flex ;
+.sushi-card {
+    display: flex;
     width: 250px;
-    height: 320px;
-
+    flex-direction: column;
     position: relative;
     overflow: visible;
     margin-top: 50px;
+    background-color: white;
+    align-items: flex-start;
+    padding: 0px;
+    border-radius: 30px;
+
+
 
 }
-   
-   .card-img {
+
+.sushi-card-img {
     display: flex;
     justify-content: center;
     height: 45%;
     width: 100%;
     border-radius: .5rem;
     transition: .3s ease;
-   }
-   
-   .card-info {
-    padding-top: 10%;
-    padding-left: 10px;
-   }
-   
-   svg {
+}
+
+.sushi-card-info {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 10px;
+    gap: 10px;
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(20, 82, 7, 0.08);
+    border-radius: 0px;
+
+
+}
+
+svg {
     width: 20px;
     height: 20px;
-   }
-   
-   .card-footer {
+}
+
+.sushi-card-footer {
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    gap: 15px;
-    padding-top: 10px;
-    background-color: white;
-   }
-   
-   /*Text*/
-   .text-title {
-    font-weight: 900;
+    padding: 22.5px 10px;
+    gap: 10px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 30px 30px;
+}
+
+/*Text*/
+.sushi-text-title {
     font-size: 1.2em;
     line-height: 1.5;
-   }
-   
-   .text-body {
+
+    /* Body Super Extra */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    color: #191C1D;
+
+}
+
+.sushi-text-body {
     font-size: .9em;
     padding-bottom: 10px;
-   }
-   
-   /*Button*/
-   .card-button {
-    background-color: #ff8d40;
+}
+
+/*Button*/
+.sushi-card-button {
     color: white;
-    border-radius: 4px;
     display: flex;
-    padding: .3em;
     cursor: pointer;
     transition: .3s ease-in-out;
-   }
-   
-   /*Hover*/
-   .card-img:hover {
+
+    /* primaryButton */
+
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    background: #FF8D40;
+    border-radius: 4px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+}
+
+.sushi-weight-body {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5C5F60;
+
+}
+
+/*Hover*/
+.card-img:hover {
     transform: translateY(-15%);
     box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
-   }
-   
-
-   
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "title": "Червоний Дракон",
+        "description": "Лосось, рис",
+        "weight": 400,
+        "price": 300,
+        "img": "img/Product Image.svg"
+
+    }
+]
